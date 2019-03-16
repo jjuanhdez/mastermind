@@ -1,0 +1,27 @@
+{
+  "name": "Mastermind",
+  "description": "Esta es una implementación de HTML5 de un antiguo juego de mesa. Mastermind son juegos en los que la computadora elige al azar una secuencia de colores según la configuración del usuario y el jugador tiene varios intentos para adivinar el orden correcto de la secuencia. Para cada intento, el usuario recibe una respuesta de cuántos colores en la secuencia que ingresó son del mismo color y lugar que dentro de la secuencia elegida por computadora y cuántos están presentes pero en un lugar incorrecto. Una vez que el usuario adivina la secuencia correcta o utiliza todos los intentos, el juego termina.",
+  "version": "1.0.2",
+  
+  "launch_path": "/index.html",
+  
+  "icons": {
+    "16": "/img/icons/mastermind16.png",
+    "30": "/img/icons/mastermind30.png",
+    "32": "/img/icons/mastermind32.png",
+    "48": "/img/icons/mastermind48.png",
+    "60": "/img/icons/mastermind60.png",
+    "64": "/img/icons/mastermind64.png",
+    "90": "/img/icons/mastermind90.png",
+    "120": "/img/icons/mastermind120.png",
+    "128": "/img/icons/mastermind128.png",
+    "256": "/img/icons/mastermind256.png"
+  },
+  "developer": {
+    "name": "J. Juan Hernández",
+    "url": "http://aquiesta.org/"
+  },
+  "default_locale": "es"
+  
+  "orientation": "portrait-primary"
+}

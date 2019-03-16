@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<title>Mastermind</title>
+</head>
+<body>
+	<div id="main_container">Cargando...</div>
+	<script id="index-template" type="text/x-template">
+	  <h2><p>Mastermind</p></h2>
+	  <nav>
+		<ul>
+		  <li>
+			<a href="#play">Jugar</a>
+		  </li>
+		  <li>
+			<a href="#instructions">Instrucciones</a>
+		  </li>
+		  <li>
+			<a href="#about">Acerca de</a>
+		  </li>
+		</ul>
+	  </nav>
+	</script>
+	<script id="play-template" type="text/x-template">
+	  <h2>
+		<img id="backPlay" src="img/common-back.png"/>
+		<p>Jugar</p>
+	  </h2>
+	  <canvas id="board"></canvas>
+	  <p id="message">Haz click en la cuadrícula para jugar.</p>
+	</script>
+	<script id="instructions-template" type="text/x-template">
+	  <h2>
+		<img id="backInstructions" src="img/common-back.png" alt="<"/>
+		<p>Instrucciones</p>
+	  </h2>
+	  <br><article>
+		<p id="izda">La computadora elige una secuencia al azar y el jugador tiene varios intentos para adivinar el orden correcto de la secuencia. <br>Para cada intento, el usuario recibe una respuesta de cuántos colores en la secuencia que ingresó son del mismo color y lugar dentro de la secuencia elegida por computadora [negro] y cuántos están presentes pero en un lugar incorrecto [rojo]. <br>Una vez que el usuario adivina la secuencia correcta o utiliza todos los intentos, el juego termina.</p> 
+	  </article>
+	</script>
+	<script id="about-template" type="text/x-template">
+	  <h2>
+		<img id="backAbout" src="img/common-back.png"/>
+		<p>Acerca de</p>
+	  </h2>
+	  <br><article>
+		<p>Desarrollado por: <a target="_blank" href="http://aquiesta.org">J. Juan Hernández</a></p>
+		<br><!--<p>Version 1.0.3: Optimización menor.</p>-->
+		<p>Version 1.0.2: Corrección de errores.</p>
+		<p>Versión 1.0.1: Dependencias actualizadas.</p>
+		<p>Versi&oacute;n 1.0.0: Versión inicial.</p>
+	  </article>
+	</script>
+	<script type="text/javascript" src="js/zepto.min-1.2.0.js"></script>
+	<script type="text/javascript" src="js/underscore-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/backbone-1.3.3.min.js"></script>
+	<script type="text/javascript" src="js/atlas-0.3.0.min.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
