@@ -12,4 +12,4 @@ Play [Mastermind](https://en.wikipedia.org/wiki/Mastermind_%28board_game%29) in 
 
 ## License
 
-[unlicense](https://unlicense.org/)
+[unlicense](./img/pd-icon.png)
