@@ -1,13 +1,13 @@
 ## Mastermind
 
-Juego de ingenio y reflexiÃ³n que consiste en encontrar la combinaciÃ³n de fichas de colores escogida por la computadora.
+Juego de ingenio y reflexión que consiste en encontrar la combinación de fichas de colores escogida por la computadora.
 * Completamente libre de publicidad.
 
 # mastermind ("mente maestra")
 
 ![Mastermind!](./Mastermind.png)
 
-Â¡Juega al [Mastermind](https://es.wikipedia.org/wiki/Mastermind) en tu terminal!
+!Juega al [Mastermind](https://es.wikipedia.org/wiki/Mastermind) en tu terminal!
 
 
 ## License
