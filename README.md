@@ -3,7 +3,7 @@
 Juego de ingenio y reflexión que consiste en encontrar la combinación de fichas de colores escogida por la computadora.
 * Completamente libre de publicidad.
 
-# mastermind-game
+# mastermind ("mente maestra")
 
 ![Mastermind!](./Mastermind.png)
 
