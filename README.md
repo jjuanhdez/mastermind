@@ -7,9 +7,9 @@ Juego de ingenio y reflexión que consiste en encontrar la combinación de ficha
 
 ![Mastermind!](./Mastermind.png)
 
-Play [Mastermind](https://en.wikipedia.org/wiki/Mastermind_%28board_game%29) in your terminal!
+¡Juega al [Mastermind](https://es.wikipedia.org/wiki/Mastermind) en tu terminal!
 
 
 ## License
 
-[unlicense](./img/pd-icon.png)
+![unlicense](./img/pd-icon.png)
